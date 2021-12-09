@@ -9,6 +9,7 @@ export interface Datum {
     z:         number[];
     type:      string;
     hoverinfo: string;
+    hovermode :string;
     marker:    Marker;
 }
 
